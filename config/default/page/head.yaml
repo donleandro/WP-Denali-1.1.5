@@ -16,3 +16,14 @@ atoms:
         enabled: '0'
         more: '0'
     id: frameworks-1582
+  -
+    id: analytics-6052
+    type: analytics
+    title: 'Google Analytics'
+    attributes:
+      enabled: '0'
+      ua:
+        code: UA-126986891-1
+        anonym: '0'
+        ssl: '0'
+        debug: '0'

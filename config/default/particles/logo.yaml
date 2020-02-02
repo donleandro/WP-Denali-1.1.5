@@ -1,8 +1,9 @@
 enabled: '1'
-url: ''
-image: ''
+url: 'https://leandromoreno.co'
+target: _self
+image: 'gantry-media://logo leandro moreno.svg'
 link: '1'
 svg: ''
-text: denali<span>.</span>
-title: Denali
+text: ''
+title: ''
 class: g-logo

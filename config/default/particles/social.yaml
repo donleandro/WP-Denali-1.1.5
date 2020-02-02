@@ -3,14 +3,15 @@ css:
   class: ''
 title: ''
 target: _blank
+display: both
 items:
   -
-    icon: 'fa fa-facebook-square fa-fw'
+    icon: 'fa fa-linkedin-square'
     text: ''
-    link: 'https://www.facebook.com/RocketTheme'
-    name: Facebook
+    link: 'https://www.linkedin.com/in/leandro-moreno-diseno'
+    name: Linkedin
   -
-    icon: 'fa fa-twitter-square fa-fw'
+    icon: 'fa fa-instagram'
     text: ''
-    link: 'http://www.twitter.com/rockettheme'
-    name: Twitter
+    link: 'https://www.instagram.com/donleandromoreno/'
+    name: Instagram

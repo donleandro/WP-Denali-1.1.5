@@ -1,0 +1,69 @@
+name: home
+timestamp: 1573787158
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1538995932
+positions: {  }
+sections:
+  top: Top
+  navigation: Navigation
+  slideshow: Slideshow
+  above: Above
+  feature: Feature
+  showcase: Showcase
+  extension: Extension
+  bottom: Bottom
+  copyright: Copyright
+  header: Header
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  messages:
+    system-messages-1675: 'System Messages'
+  slider:
+    slider-7244: Slider
+  simplecontent:
+    simplecontent-1913: 'Designed for Tomorrow'
+    simplecontent-8186: 'Brilliant Sliders'
+    simplecontent-3665: 'Premium Particles'
+    simplecontent-1800: 'Perfect Presets'
+    simplecontent-3527: 'An Incredible Experience'
+    simplecontent-9699: 'Denali is Powered By'
+    simplecontent-3478: 'Simple Content'
+  showcase:
+    showcase-8833: 'Showcase Slider'
+  eventlist:
+    eventlist-3132: 'Upcoming Exhibitions'
+  casestudies:
+    casestudies-9807: 'Our Blog'
+  carousel:
+    carousel-5826: 'Carousel - Image Gallery'
+  logo:
+    logo-3644: Logo
+  menu:
+    menu-9915: Menu
+  social:
+    social-3537: Social
+  simplemenu:
+    simplemenu-6487: 'Bottom Menu'
+  branding:
+    branding-6188: Branding
+  mobile-menu:
+    mobile-menu-2491: Mobile-menu
+inherit:
+  default:
+    top: top
+    system-messages-1675: system-messages-9828
+    navigation: navigation
+    footer: footer
+    copyright: copyright
+    offcanvas: offcanvas
+    logo-3644: logo-5992
+    menu-9915: menu-2350
+    social-3537: social-1608
+    simplemenu-6487: simplemenu-6826
+    simplecontent-3478: simplecontent-4123
+    branding-6188: branding-2782
+    mobile-menu-2491: mobile-menu-7951
