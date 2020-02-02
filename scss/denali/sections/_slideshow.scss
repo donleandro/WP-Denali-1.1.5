@@ -4,12 +4,12 @@
     position: relative;
 
     .g-simplecontent, h1, .g-slider-carousel-title {
-        color: $white;
+        color: $slideshow-h1-color;
     }
 
     .g-slider .g-slider-slides .g-slider-slides-slide .g-slider-slides-content p {
         @include breakpoint(mobile-only) {
-            color: $white;
+            color: $slideshow-h1-color;
         }
     }
 }

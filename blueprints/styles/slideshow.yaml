@@ -12,3 +12,11 @@ form:
       type: input.colorpicker
       label: Text
       default: "#999999"
+    h1-color:
+      type: input.colorpicker
+      label: Title Text
+      default: "#ffffff"
+    owl-dots-color:
+      type: input.colorpicker
+      label: Owl dots color
+      default: "#ffffff"

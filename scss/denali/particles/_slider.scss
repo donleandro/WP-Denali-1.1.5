@@ -88,12 +88,12 @@
             .owl-dot {
                 border-radius: 100%;
                 background: transparent;
-                border: 2px solid $white;
+                border: 2px solid $slideshow-owl-dots-color;
                 width: 12px;
                 height: 12px;
                 margin: 0.2rem;
                 &.active {
-                    background: $white;
+                    background: $slideshow-owl-dots-color;
                 }
             }
             .dir-rtl & {
