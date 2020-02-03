@@ -71,13 +71,12 @@
             }
         } // Dots
         .owl-dots {
-            width: 40%;
             position: absolute;
             top: 12rem;
+            left: 38%;
             @include breakpoint(tablet-range) {
-                width: 50%;
+                left: 48%;
             }
-            left: 0;
             padding-right: $content-padding;
             @include breakpoint(mobile-only) {
                 display: none;
