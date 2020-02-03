@@ -39,17 +39,21 @@
     <div class="g-slider-slides-slide">
         <div class="g-slider-slides-content">
             {% if display.title.enabled and post.title %}
+              <a href="{{ post.link|e }}" target="{{ display.read_more.target|default('_self')|e }}">
                 <h1>{{ (display.title.limit ? post.title|truncate_text(display.title.limit)|raw : post.title|raw) }}</h1>
+              </a>
             {% endif %}
 
             {% if display.text.type %}
                 {% set post_text = display.text.type == 'excerpt' ? post.post_excerpt : post.content %}
                 <p>
+                  <a href="{{ post.link|e }}" target="{{ display.read_more.target|default('_self')|e }}">
                     {% if display.text.formatting == 'text' %}
                         {{ post_text|truncate_text(display.text.limit)|raw }}
                     {% else %}
                         {{ post_text|truncate_html(display.text.limit)|raw }}
                     {% endif %}
+                  </a>
                 </p>
             {% endif %}
 
@@ -59,6 +63,7 @@
 
         </div>
         <div class="g-slider-slides-image" style="background-image: url({{ url(post_image)|e }});"></div>
+
     </div>
 {% endfor %}
 </div>
