@@ -1,6 +1,7 @@
 // Font Import
 @include import-font($font-family-default);
 @include import-font($font-family-weather);
+@include import-font($font-h1-default);
 
 body {
     font-family: get-font-family($font-family-default);
@@ -16,6 +17,7 @@ h1, h2, h3, h4, h5 {
 h1 {
     font-size: $h1-font-size;
     font-weight: $font-weight-bold;
+    font-family: get-font-family($font-h1-default);
 }
 
 h2 {

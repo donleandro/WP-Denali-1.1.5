@@ -9,3 +9,8 @@ form:
       type: input.fonts
       label: Body Font
       default: 'sourcesanspro, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+
+    h1-default:
+      type: input.fonts
+      label: Titles Font
+      default: 'sourcesanspro, Helvetica, Tahoma, Geneva, Arial, sans-serif'
